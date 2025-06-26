@@ -1,0 +1,8 @@
+# Prevent secrets and credentials from being committed
+.env
+config.yaml
+
+# Optional: ignore logs, outputs, and cache
+output/
+*.log
+__pycache__/
